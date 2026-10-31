@@ -1,0 +1,12 @@
+{
+  "name": "space-lens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, local-first macOS storage analyzer",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "build:mac": "./scripts/build-macos.sh"
+  },
+  "engines": { "node": ">=18" }
+}
